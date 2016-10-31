@@ -1,0 +1,70 @@
+
+*{
+	box-sizing: border-box;
+	font-family: Arial;
+
+}
+h1{
+	text-align:center;
+	padding:20px 20px 20px 20px;
+}
+
+span{
+	border:solid black 2px;
+	border-right:none;
+	border-top:none;
+	padding:5px;
+
+}
+
+.col-lg-4>div{
+	border: solid black 4px;
+	padding:10px;
+	margin:10px;
+	background-color:gray;
+
+}
+
+.Chicken, .Beef, .Potato {
+
+font-size: 24px;
+text-align:right;
+margin-right:-10px;
+margin-top:-5px;
+margin-bottom:10px;
+}
+
+.Chicken > span {
+	background-color:#331215;
+	color:white;
+}
+.Beef > span {
+	background-color:#AB1255;
+	color:white;
+}
+.Potato > span {
+	background-color:#ABCD55;
+	color:white;
+}
+
+
+}
+/*desk view*/
+@media(min-width:992px){
+	.col-lg-4{
+		width:33.33%;
+		float:left;
+	
+	}
+
+}
+@media(min-width: 768px) and (max-width:991px){
+	.col-md-6{
+		width:50%;
+		float:left;
+	}
+	.col-md-12{
+		width:100%;
+		float:left;
+	}
+}
